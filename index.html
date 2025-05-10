@@ -3,17 +3,17 @@
 <head>
     <title>X.L.T Records</title>
     <style>
-        body { 
-            background: #1a1a1a; 
-            color: white; 
-            text-align: center;
-            padding: 50px;
-            font-family: Arial;
-        }
-        a {
-            color: #ff6b6b;
-            text-decoration: none;
-        }
+        body {
+  background: linear-gradient(-45deg, #1a1a1a, #2d2d2d, #1a1a1a, #ff6b6b);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
     </style>
 </head>
 <body>
