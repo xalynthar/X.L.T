@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>X L.T Recods - Artist Demo Submission</title>
+    <title>X L.T Records - Artist Demo Submission</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         :root {
@@ -80,7 +80,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h1 class="display-3 mb-4">Welcome to Luminous Records</h1>
+                    <h1 class="display-3 mb-4">Welcome to X.L.T Records</h1>
                     <p class="lead mb-5">Pushing the boundaries of electronic music since 2012</p>
                     <button class="btn btn-lg btn-outline-light" onclick="scrollToForm()">Submit Demo</button>
                 </div>
