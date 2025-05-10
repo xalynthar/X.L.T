@@ -39,5 +39,23 @@
     <button type="submit">Submit Demo</button>
     </form>
     <p><a href="index.html">← Back to Home</a></p>
+    <!-- Add to submit.html before </body> -->
+<div id="waveform" style="height:100px; margin:20px 0; display:none;"></div>
+<script src="https://unpkg.com/wavesurfer.js"></script>
+<script>
+  const wavesurfer = WaveSurfer.create({
+    container: '#waveform',
+    waveColor: '#ff6b6b',
+    progressColor: '#ff3b3b'
+  });
+
+  document.querySelector('input[type="file"]').addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      wavesurfer.loadBlob(file);
+      document.getElementById('waveform').style.display = 'block';
+    }
+  });
+</script>
 </body>
 </html>
