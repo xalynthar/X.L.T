@@ -29,14 +29,14 @@
 </head>
 <body>
     <h1>Demo Submission</h1>
-    <form>
-        <input type="text" placeholder="Artist Name" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Message" rows="4"></textarea>
-        <input type="file" accept=".mp3,.wav">
-        <p>OR</p>
-        <input type="url" placeholder="SoundCloud Private Link">
-        <button type="submit">Submit</button>
+    <form action="https://formspree.io/f/mpwdlevp" method="POST" enctype="multipart/form-data">
+    <input type="text" name="artist" placeholder="Artist Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Message" rows="4"></textarea>
+    <input type="file" name="audio" accept=".mp3,.wav,.aiff">
+    <p>OR</p>
+    <input type="url" name="soundcloud" placeholder="SoundCloud Private Link">
+    <button type="submit">Submit Demo</button>
     </form>
     <p><a href="index.html">← Back to Home</a></p>
 </body>
