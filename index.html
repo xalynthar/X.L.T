@@ -22,3 +22,31 @@
     <a href="submit.html">Submit Demo →</a>
 </body>
 </html>
+<div class="gallery">
+  <h2>Featured Artists</h2>
+  <div class="artist-grid">
+    <!-- Repeat for each artist -->
+    <div class="artist-card">
+      <img src="artist1.jpg" alt="Artist Name">
+      <h3>Artist Name</h3>
+      <p>Genre: Techno</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .artist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .artist-card {
+    background: rgba(255,255,255,0.05);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .artist-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+</style>
